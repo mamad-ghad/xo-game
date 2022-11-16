@@ -1,0 +1,35 @@
+.wrapper{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block{
+    width: 98px;
+    height: 98px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 90px;
+}
+
+#turn-box{
+    width: 100px;
+    height: 30px;
+    margin: 10px auto;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#turnBox span{
+color: red;
+}
+
+.winner{
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px auto;
+}
